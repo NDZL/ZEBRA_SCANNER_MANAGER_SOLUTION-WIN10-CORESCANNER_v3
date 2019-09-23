@@ -409,11 +409,12 @@ bool CSendKeys::SendKeys(LPCTSTR KeysString, bool Wait)
       break;
 
     // WINKEY (Left-WinKey)
+	 /*
     case '@':
       m_bWinDown = true;
       SendKeyDown(VK_LWIN, 1, false);
       break;
-
+	 */
     // enter
     case _TXCHAR('~'):
       SendKeyDown(VK_RETURN, 1, true);
