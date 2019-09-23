@@ -1,0 +1,15 @@
+11.43.33	-	SetTargetDevice: found just one device
+11.43.33	-	PushConfigurationFromFile: configuration from d:\profiles\bxp748\desktop\wmiscannermanager\config.xml
+11.43.33	-	PushConfigurationFromFile: configuration is:
+<attrib_list>
+	<attribute>
+		<id>56</id>
+		<name>"BeepOnGoodDecode"</name>
+		<datatype>F</datatype>
+		<permission>R W P</permission>
+		<value>False</value>
+	</attribute>
+</attrib_list>
+11.43.33	-	pushConfiguration: Start Cloning: 9359000502555
+11.43.34	-	pushConfiguration: Cloning Done: 9359000502555
+11.43.34	-	pushConfiguration: Return Value: Succeeded

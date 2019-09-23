@@ -1,0 +1,347 @@
+15.55.15	-	SetTargetDevice: found two devices
+15.55.15	-	SetTargetDevice: setting scanner mode
+15.55.15	-	PushConfigurationFromFile: configuration from d:\profiles\bxp748\desktop\wmiscannermanager\config.xml
+15.55.15	-	PushConfigurationFromFile: configuration is:
+<attrib_list>
+	<attribute>
+		<id>56</id>
+		<name>"BeepOnGoodDecode"</name>
+		<datatype>F</datatype>
+		<permission>R W P</permission>
+		<value>False</value>
+	</attribute>
+</attrib_list>
+15.55.15	-	pushConfiguration: Start Cloning: S/N:F1FD82A4E2134141A95250CFFA9C9DA1
+15.55.16	-	pushConfiguration: Cloning Done: S/N:F1FD82A4E2134141A95250CFFA9C9DA1
+15.55.16	-	pushConfiguration: Return Value: Succeeded
+15.58.47	-	SetTargetDevice: found two devices
+15.58.47	-	SetTargetDevice: setting scanner mode
+15.58.47	-	PushConfigurationFromFile: configuration from d:\profiles\bxp748\desktop\wmiscannermanager\config.xml
+15.58.47	-	PushConfigurationFromFile: configuration is:
+<attrib_list>
+	<attribute>
+		<id>56</id>
+		<name>"BeepOnGoodDecode"</name>
+		<datatype>F</datatype>
+		<permission>R W P</permission>
+		<value>True</value>
+	</attribute>
+</attrib_list>
+15.58.47	-	pushConfiguration: Start Cloning: S/N:F1FD82A4E2134141A95250CFFA9C9DA1
+15.58.48	-	pushConfiguration: Cloning Done: S/N:F1FD82A4E2134141A95250CFFA9C9DA1
+15.58.48	-	pushConfiguration: Return Value: Succeeded
+16.03.18	-	SetTargetDevice: found two devices
+16.03.18	-	SetTargetDevice: setting scanner mode
+16.03.18	-	PushConfigurationFromFile: configuration from d:\profiles\bxp748\desktop\wmiscannermanager\config.xml
+16.03.18	-	PushConfigurationFromFile: configuration is:
+<attrib_list>
+	<attribute>
+		<id>56</id>
+		<name>"BeepOnGoodDecode"</name>
+		<datatype>F</datatype>
+		<permission>R W P</permission>
+		<value>False</value>
+	</attribute>
+</attrib_list>
+16.03.18	-	pushConfiguration: Start Cloning: S/N:F1FD82A4E2134141A95250CFFA9C9DA1
+16.03.20	-	pushConfiguration: Cloning Done: S/N:F1FD82A4E2134141A95250CFFA9C9DA1
+16.03.20	-	pushConfiguration: Return Value: Succeeded
+16.04.23	-	SetTargetDevice: found two devices
+16.04.23	-	SetTargetDevice: setting scanner mode
+16.04.23	-	PushConfigurationFromFile: configuration from d:\profiles\bxp748\desktop\wmiscannermanager\config.xml
+16.04.23	-	PushConfigurationFromFile: configuration is:
+<attrib_list>
+	<attribute>
+		<id>56</id>
+		<name>"BeepOnGoodDecode"</name>
+		<datatype>F</datatype>
+		<permission>R W P</permission>
+		<value>True</value>
+	</attribute>
+</attrib_list>
+16.04.23	-	pushConfiguration: Start Cloning: S/N:F1FD82A4E2134141A95250CFFA9C9DA1
+16.04.24	-	pushConfiguration: Cloning Done: S/N:F1FD82A4E2134141A95250CFFA9C9DA1
+16.04.24	-	pushConfiguration: Return Value: Succeeded
+
+
+15.46.29	-	SetTargetDevice: found two devices
+15.46.29	-	SetTargetDevice: setting scanner mode
+15.46.29	-	PushFirmwareFromFile: firmware from d:\profiles\bxp748\desktop\wmiscannermanager\nbchmaaf-ds3578.dat
+15.46.29	-	injectNewFirmware: Start Injecting: 9359000502555
+15.46.30	-	injectNewFirmware: Injecting Done: 9359000502555
+15.46.30	-	injectNewFirmware: Return Value: Completed
+15.46.32	-	FirmwareUpdateStatus: Session Started
+15.46.32	-	FirmwareUpdateStatus: Download Started
+15.46.32	-	FirmwareUpdateStatus: Download Ended
+15.46.32	-	FirmwareUpdateStatus: Session Ended
+15.46.32	-	startNewFirmware: Starting: 9359000502555
+15.46.33	-	startNewFirmware: Start Done: 9359000502555
+15.46.33	-	startNewFirmware: Return Value: Completed
+17.32.11	-	SetTargetDevice: found just one device
+17.32.11	-	PushFirmwareFromFile: firmware from d:\profiles\bxp748\desktop\wmiscannermanager\nbrpucai.dat
+17.32.11	-	injectNewFirmware: Start Injecting: 9359000502555
+17.32.12	-	injectNewFirmware: Injecting Done: 9359000502555
+17.32.12	-	injectNewFirmware: Return Value: Completed
+17.32.15	-	FirmwareUpdateStatus: Session Started
+17.32.15	-	FirmwareUpdateStatus: Download Started
+17.32.15	-	FirmwareUpdateStatus: Download Ended
+17.32.15	-	FirmwareUpdateStatus: Download Started
+17.32.17	-	FirmwareUpdateStatus: Progress - Block:0
+17.32.23	-	FirmwareUpdateStatus: Progress - Block:10
+17.32.28	-	FirmwareUpdateStatus: Progress - Block:20
+17.32.34	-	FirmwareUpdateStatus: Progress - Block:30
+17.32.40	-	FirmwareUpdateStatus: Progress - Block:40
+17.32.46	-	FirmwareUpdateStatus: Progress - Block:50
+17.32.51	-	FirmwareUpdateStatus: Progress - Block:60
+17.32.57	-	FirmwareUpdateStatus: Progress - Block:70
+17.33.03	-	FirmwareUpdateStatus: Progress - Block:80
+17.33.09	-	FirmwareUpdateStatus: Progress - Block:90
+17.33.15	-	FirmwareUpdateStatus: Progress - Block:100
+17.33.20	-	FirmwareUpdateStatus: Progress - Block:110
+17.33.26	-	FirmwareUpdateStatus: Progress - Block:120
+17.33.32	-	FirmwareUpdateStatus: Progress - Block:130
+17.33.38	-	FirmwareUpdateStatus: Progress - Block:140
+17.33.43	-	FirmwareUpdateStatus: Progress - Block:150
+17.33.49	-	FirmwareUpdateStatus: Progress - Block:160
+17.33.55	-	FirmwareUpdateStatus: Progress - Block:170
+17.34.01	-	FirmwareUpdateStatus: Progress - Block:180
+17.34.06	-	FirmwareUpdateStatus: Progress - Block:190
+17.34.12	-	FirmwareUpdateStatus: Progress - Block:200
+17.34.18	-	FirmwareUpdateStatus: Progress - Block:210
+17.34.24	-	FirmwareUpdateStatus: Progress - Block:220
+17.34.29	-	FirmwareUpdateStatus: Progress - Block:230
+17.34.35	-	FirmwareUpdateStatus: Progress - Block:240
+17.34.41	-	FirmwareUpdateStatus: Progress - Block:250
+17.34.47	-	FirmwareUpdateStatus: Progress - Block:260
+17.34.52	-	FirmwareUpdateStatus: Progress - Block:270
+17.34.59	-	FirmwareUpdateStatus: Progress - Block:280
+17.35.05	-	FirmwareUpdateStatus: Progress - Block:290
+17.35.11	-	FirmwareUpdateStatus: Progress - Block:300
+17.35.17	-	FirmwareUpdateStatus: Progress - Block:310
+17.35.22	-	FirmwareUpdateStatus: Progress - Block:320
+17.35.28	-	FirmwareUpdateStatus: Progress - Block:330
+17.35.34	-	FirmwareUpdateStatus: Progress - Block:340
+17.35.40	-	FirmwareUpdateStatus: Progress - Block:350
+17.35.45	-	FirmwareUpdateStatus: Progress - Block:360
+17.35.51	-	FirmwareUpdateStatus: Progress - Block:370
+17.35.57	-	FirmwareUpdateStatus: Progress - Block:380
+17.36.03	-	FirmwareUpdateStatus: Progress - Block:390
+17.36.08	-	FirmwareUpdateStatus: Progress - Block:400
+17.36.14	-	FirmwareUpdateStatus: Progress - Block:410
+17.36.20	-	FirmwareUpdateStatus: Progress - Block:420
+17.36.26	-	FirmwareUpdateStatus: Progress - Block:430
+17.36.32	-	FirmwareUpdateStatus: Progress - Block:440
+17.36.37	-	FirmwareUpdateStatus: Progress - Block:450
+17.36.43	-	FirmwareUpdateStatus: Progress - Block:460
+17.36.49	-	FirmwareUpdateStatus: Progress - Block:470
+17.36.55	-	FirmwareUpdateStatus: Progress - Block:480
+17.37.00	-	FirmwareUpdateStatus: Progress - Block:490
+17.37.06	-	FirmwareUpdateStatus: Progress - Block:500
+17.37.12	-	FirmwareUpdateStatus: Progress - Block:510
+17.37.18	-	FirmwareUpdateStatus: Progress - Block:520
+17.37.23	-	FirmwareUpdateStatus: Progress - Block:530
+17.37.29	-	FirmwareUpdateStatus: Progress - Block:540
+17.37.35	-	FirmwareUpdateStatus: Progress - Block:550
+17.37.42	-	FirmwareUpdateStatus: Progress - Block:560
+17.37.47	-	FirmwareUpdateStatus: Progress - Block:570
+17.37.53	-	FirmwareUpdateStatus: Progress - Block:580
+17.37.59	-	FirmwareUpdateStatus: Progress - Block:590
+17.38.05	-	FirmwareUpdateStatus: Progress - Block:600
+17.38.10	-	FirmwareUpdateStatus: Progress - Block:610
+17.38.16	-	FirmwareUpdateStatus: Progress - Block:620
+17.38.22	-	FirmwareUpdateStatus: Progress - Block:630
+17.38.28	-	FirmwareUpdateStatus: Progress - Block:640
+17.38.34	-	FirmwareUpdateStatus: Progress - Block:650
+17.38.39	-	FirmwareUpdateStatus: Progress - Block:660
+17.38.45	-	FirmwareUpdateStatus: Progress - Block:670
+17.38.51	-	FirmwareUpdateStatus: Progress - Block:680
+17.38.57	-	FirmwareUpdateStatus: Progress - Block:690
+17.39.03	-	FirmwareUpdateStatus: Progress - Block:700
+17.39.08	-	FirmwareUpdateStatus: Progress - Block:710
+17.39.14	-	FirmwareUpdateStatus: Progress - Block:720
+17.39.20	-	FirmwareUpdateStatus: Progress - Block:730
+17.39.26	-	FirmwareUpdateStatus: Progress - Block:740
+17.39.31	-	FirmwareUpdateStatus: Progress - Block:750
+17.39.37	-	FirmwareUpdateStatus: Progress - Block:760
+17.39.43	-	FirmwareUpdateStatus: Progress - Block:770
+17.39.49	-	FirmwareUpdateStatus: Progress - Block:780
+17.39.55	-	FirmwareUpdateStatus: Progress - Block:790
+17.40.00	-	FirmwareUpdateStatus: Progress - Block:800
+17.40.06	-	FirmwareUpdateStatus: Progress - Block:810
+17.40.12	-	FirmwareUpdateStatus: Progress - Block:820
+17.40.18	-	FirmwareUpdateStatus: Progress - Block:830
+17.40.24	-	FirmwareUpdateStatus: Progress - Block:840
+17.40.30	-	FirmwareUpdateStatus: Progress - Block:850
+17.40.36	-	FirmwareUpdateStatus: Progress - Block:860
+17.40.42	-	FirmwareUpdateStatus: Progress - Block:870
+17.40.48	-	FirmwareUpdateStatus: Progress - Block:880
+17.40.53	-	FirmwareUpdateStatus: Progress - Block:890
+17.40.59	-	FirmwareUpdateStatus: Progress - Block:900
+17.41.05	-	FirmwareUpdateStatus: Progress - Block:910
+17.41.11	-	FirmwareUpdateStatus: Progress - Block:920
+17.41.16	-	FirmwareUpdateStatus: Progress - Block:930
+17.41.22	-	FirmwareUpdateStatus: Progress - Block:940
+17.41.28	-	FirmwareUpdateStatus: Progress - Block:950
+17.41.34	-	FirmwareUpdateStatus: Progress - Block:960
+17.41.39	-	FirmwareUpdateStatus: Progress - Block:970
+17.41.45	-	FirmwareUpdateStatus: Progress - Block:980
+17.41.51	-	FirmwareUpdateStatus: Progress - Block:990
+17.41.57	-	FirmwareUpdateStatus: Progress - Block:1000
+17.42.03	-	FirmwareUpdateStatus: Progress - Block:1010
+17.42.08	-	FirmwareUpdateStatus: Progress - Block:1020
+17.42.14	-	FirmwareUpdateStatus: Progress - Block:1030
+17.42.20	-	FirmwareUpdateStatus: Progress - Block:1040
+17.42.26	-	FirmwareUpdateStatus: Progress - Block:1050
+17.42.31	-	FirmwareUpdateStatus: Progress - Block:1060
+17.42.37	-	FirmwareUpdateStatus: Progress - Block:1070
+17.42.43	-	FirmwareUpdateStatus: Progress - Block:1080
+17.42.49	-	FirmwareUpdateStatus: Progress - Block:1090
+17.42.55	-	FirmwareUpdateStatus: Progress - Block:1100
+17.43.00	-	FirmwareUpdateStatus: Progress - Block:1110
+17.43.07	-	FirmwareUpdateStatus: Progress - Block:1120
+17.43.13	-	FirmwareUpdateStatus: Progress - Block:1130
+17.43.19	-	FirmwareUpdateStatus: Progress - Block:1140
+17.43.24	-	FirmwareUpdateStatus: Progress - Block:1150
+17.43.30	-	FirmwareUpdateStatus: Progress - Block:1160
+17.43.36	-	FirmwareUpdateStatus: Progress - Block:1170
+17.43.42	-	FirmwareUpdateStatus: Progress - Block:1180
+17.43.48	-	FirmwareUpdateStatus: Progress - Block:1190
+17.43.53	-	FirmwareUpdateStatus: Progress - Block:1200
+17.43.59	-	FirmwareUpdateStatus: Progress - Block:1210
+17.44.05	-	FirmwareUpdateStatus: Progress - Block:1220
+17.44.11	-	FirmwareUpdateStatus: Progress - Block:1230
+17.44.16	-	FirmwareUpdateStatus: Progress - Block:1240
+17.44.22	-	FirmwareUpdateStatus: Progress - Block:1250
+17.44.28	-	FirmwareUpdateStatus: Progress - Block:1260
+17.44.34	-	FirmwareUpdateStatus: Progress - Block:1270
+17.44.39	-	FirmwareUpdateStatus: Progress - Block:1280
+17.44.45	-	FirmwareUpdateStatus: Progress - Block:1290
+17.44.51	-	FirmwareUpdateStatus: Progress - Block:1300
+17.44.57	-	FirmwareUpdateStatus: Progress - Block:1310
+17.45.02	-	FirmwareUpdateStatus: Progress - Block:1320
+17.45.08	-	FirmwareUpdateStatus: Progress - Block:1330
+17.45.14	-	FirmwareUpdateStatus: Progress - Block:1340
+17.45.20	-	FirmwareUpdateStatus: Progress - Block:1350
+17.45.26	-	FirmwareUpdateStatus: Progress - Block:1360
+17.45.31	-	FirmwareUpdateStatus: Progress - Block:1370
+17.45.37	-	FirmwareUpdateStatus: Progress - Block:1380
+17.45.43	-	FirmwareUpdateStatus: Progress - Block:1390
+17.45.50	-	FirmwareUpdateStatus: Progress - Block:1400
+17.45.55	-	FirmwareUpdateStatus: Progress - Block:1410
+17.46.01	-	FirmwareUpdateStatus: Progress - Block:1420
+17.46.07	-	FirmwareUpdateStatus: Progress - Block:1430
+17.46.13	-	FirmwareUpdateStatus: Progress - Block:1440
+17.46.18	-	FirmwareUpdateStatus: Progress - Block:1450
+17.46.24	-	FirmwareUpdateStatus: Progress - Block:1460
+17.46.30	-	FirmwareUpdateStatus: Progress - Block:1470
+17.46.36	-	FirmwareUpdateStatus: Progress - Block:1480
+17.46.42	-	FirmwareUpdateStatus: Progress - Block:1490
+17.46.47	-	FirmwareUpdateStatus: Progress - Block:1500
+17.46.53	-	FirmwareUpdateStatus: Progress - Block:1510
+17.46.59	-	FirmwareUpdateStatus: Progress - Block:1520
+17.47.05	-	FirmwareUpdateStatus: Progress - Block:1530
+17.47.10	-	FirmwareUpdateStatus: Progress - Block:1540
+17.47.16	-	FirmwareUpdateStatus: Progress - Block:1550
+17.47.22	-	FirmwareUpdateStatus: Progress - Block:1560
+17.47.28	-	FirmwareUpdateStatus: Progress - Block:1570
+17.47.33	-	FirmwareUpdateStatus: Progress - Block:1580
+17.47.39	-	FirmwareUpdateStatus: Progress - Block:1590
+17.47.45	-	FirmwareUpdateStatus: Progress - Block:1600
+17.47.50	-	FirmwareUpdateStatus: Progress - Block:1610
+17.47.56	-	FirmwareUpdateStatus: Progress - Block:1620
+17.48.02	-	FirmwareUpdateStatus: Progress - Block:1630
+17.48.07	-	FirmwareUpdateStatus: Progress - Block:1640
+17.48.13	-	FirmwareUpdateStatus: Progress - Block:1650
+17.48.19	-	FirmwareUpdateStatus: Progress - Block:1660
+17.48.24	-	FirmwareUpdateStatus: Progress - Block:1670
+17.48.31	-	FirmwareUpdateStatus: Progress - Block:1680
+17.48.37	-	FirmwareUpdateStatus: Progress - Block:1690
+17.48.42	-	FirmwareUpdateStatus: Progress - Block:1700
+17.48.48	-	FirmwareUpdateStatus: Progress - Block:1710
+17.48.54	-	FirmwareUpdateStatus: Progress - Block:1720
+17.48.59	-	FirmwareUpdateStatus: Progress - Block:1730
+17.49.05	-	FirmwareUpdateStatus: Progress - Block:1740
+17.49.11	-	FirmwareUpdateStatus: Progress - Block:1750
+17.49.16	-	FirmwareUpdateStatus: Progress - Block:1760
+17.49.22	-	FirmwareUpdateStatus: Progress - Block:1770
+17.49.28	-	FirmwareUpdateStatus: Progress - Block:1780
+17.49.34	-	FirmwareUpdateStatus: Progress - Block:1790
+17.49.39	-	FirmwareUpdateStatus: Progress - Block:1800
+17.49.45	-	FirmwareUpdateStatus: Progress - Block:1810
+17.49.51	-	FirmwareUpdateStatus: Progress - Block:1820
+17.49.56	-	FirmwareUpdateStatus: Progress - Block:1830
+17.50.02	-	FirmwareUpdateStatus: Progress - Block:1840
+17.50.08	-	FirmwareUpdateStatus: Progress - Block:1850
+17.50.13	-	FirmwareUpdateStatus: Progress - Block:1860
+17.50.19	-	FirmwareUpdateStatus: Progress - Block:1870
+17.50.25	-	FirmwareUpdateStatus: Progress - Block:1880
+17.50.30	-	FirmwareUpdateStatus: Progress - Block:1890
+17.50.36	-	FirmwareUpdateStatus: Progress - Block:1900
+17.50.42	-	FirmwareUpdateStatus: Progress - Block:1910
+17.50.47	-	FirmwareUpdateStatus: Progress - Block:1920
+17.50.53	-	FirmwareUpdateStatus: Progress - Block:1930
+17.50.59	-	FirmwareUpdateStatus: Progress - Block:1940
+17.51.04	-	FirmwareUpdateStatus: Progress - Block:1950
+17.51.11	-	FirmwareUpdateStatus: Progress - Block:1960
+17.51.17	-	FirmwareUpdateStatus: Progress - Block:1970
+17.51.22	-	FirmwareUpdateStatus: Progress - Block:1980
+17.51.28	-	FirmwareUpdateStatus: Progress - Block:1990
+17.51.34	-	FirmwareUpdateStatus: Progress - Block:2000
+17.51.40	-	FirmwareUpdateStatus: Progress - Block:2010
+17.51.45	-	FirmwareUpdateStatus: Progress - Block:2020
+17.51.51	-	FirmwareUpdateStatus: Progress - Block:2030
+17.51.57	-	FirmwareUpdateStatus: Progress - Block:2040
+17.52.02	-	FirmwareUpdateStatus: Progress - Block:2050
+17.52.08	-	FirmwareUpdateStatus: Progress - Block:2060
+17.52.14	-	FirmwareUpdateStatus: Progress - Block:2070
+17.52.19	-	FirmwareUpdateStatus: Progress - Block:2080
+17.52.25	-	FirmwareUpdateStatus: Progress - Block:2090
+17.52.31	-	FirmwareUpdateStatus: Progress - Block:2100
+17.52.37	-	FirmwareUpdateStatus: Progress - Block:2110
+17.52.43	-	FirmwareUpdateStatus: Progress - Block:2120
+17.52.48	-	FirmwareUpdateStatus: Progress - Block:2130
+17.52.54	-	FirmwareUpdateStatus: Progress - Block:2140
+17.53.00	-	FirmwareUpdateStatus: Progress - Block:2150
+17.53.06	-	FirmwareUpdateStatus: Progress - Block:2160
+17.53.11	-	FirmwareUpdateStatus: Progress - Block:2170
+17.53.17	-	FirmwareUpdateStatus: Progress - Block:2180
+17.53.23	-	FirmwareUpdateStatus: Progress - Block:2190
+17.53.29	-	FirmwareUpdateStatus: Progress - Block:2200
+17.53.34	-	FirmwareUpdateStatus: Progress - Block:2210
+17.53.40	-	FirmwareUpdateStatus: Progress - Block:2220
+17.53.46	-	FirmwareUpdateStatus: Progress - Block:2230
+17.53.53	-	FirmwareUpdateStatus: Progress - Block:2240
+17.53.58	-	FirmwareUpdateStatus: Progress - Block:2250
+17.54.04	-	FirmwareUpdateStatus: Progress - Block:2260
+17.54.10	-	FirmwareUpdateStatus: Progress - Block:2270
+17.54.16	-	FirmwareUpdateStatus: Progress - Block:2280
+17.54.21	-	FirmwareUpdateStatus: Progress - Block:2290
+17.54.27	-	FirmwareUpdateStatus: Progress - Block:2300
+17.54.33	-	FirmwareUpdateStatus: Progress - Block:2310
+17.54.39	-	FirmwareUpdateStatus: Progress - Block:2320
+17.54.44	-	FirmwareUpdateStatus: Progress - Block:2330
+17.54.50	-	FirmwareUpdateStatus: Progress - Block:2340
+17.54.56	-	FirmwareUpdateStatus: Progress - Block:2350
+17.55.02	-	FirmwareUpdateStatus: Progress - Block:2360
+17.55.07	-	FirmwareUpdateStatus: Progress - Block:2370
+17.55.13	-	FirmwareUpdateStatus: Progress - Block:2380
+17.55.19	-	FirmwareUpdateStatus: Progress - Block:2390
+17.55.25	-	FirmwareUpdateStatus: Progress - Block:2400
+17.55.30	-	FirmwareUpdateStatus: Progress - Block:2410
+17.55.36	-	FirmwareUpdateStatus: Progress - Block:2420
+17.55.42	-	FirmwareUpdateStatus: Progress - Block:2430
+17.55.48	-	FirmwareUpdateStatus: Progress - Block:2440
+17.55.53	-	FirmwareUpdateStatus: Progress - Block:2450
+17.55.59	-	FirmwareUpdateStatus: Progress - Block:2460
+17.56.05	-	FirmwareUpdateStatus: Progress - Block:2470
+17.56.11	-	FirmwareUpdateStatus: Progress - Block:2480
+17.56.16	-	FirmwareUpdateStatus: Progress - Block:2490
+17.56.22	-	FirmwareUpdateStatus: Progress - Block:2500
+17.56.28	-	FirmwareUpdateStatus: Progress - Block:2510
+17.56.35	-	FirmwareUpdateStatus: Progress - Block:2520
+17.56.40	-	FirmwareUpdateStatus: Progress - Block:2530
+17.56.42	-	FirmwareUpdateStatus: Download Ended
+17.56.42	-	FirmwareUpdateStatus: Session Ended
+17.56.42	-	startNewFirmware: Starting: 9359000502555
+17.56.43	-	startNewFirmware: Start Done: 9359000502555
+17.56.43	-	startNewFirmware: Return Value: Completed

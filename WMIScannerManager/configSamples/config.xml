@@ -1,0 +1,10 @@
+<attrib_list>
+	<attribute>
+		<id>56</id>
+		<name>"BeepOnGoodDecode"</name>
+		<datatype>F</datatype>
+		<permission>R W P</permission>
+		<value>False</value>
+	</attribute>
+</attrib_list>
+

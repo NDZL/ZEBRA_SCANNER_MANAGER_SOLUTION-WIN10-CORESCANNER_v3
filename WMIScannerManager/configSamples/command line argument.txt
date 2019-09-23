@@ -1,0 +1,9 @@
+WMIScannerManager.exe type:configuration path:"C:\NDZL\Poste\2012\MotoSW (Win7)\service_test\MotorolaScannerManager+WMI+MSM\WMIScannerManager\bin\config.xml" device:scanner log:true noui:true
+
+WMIScannerManager.exe type:firmware path:"D:\Profiles\bxp748\Desktop\WMIScannerManager\NBRPUCAI.DAT" device:scanner log:true noui:true
+
+WMIScannerManager.exe type:firmware path:"D:\Profiles\bxp748\Desktop\WMIScannerManager\CAAANS00-002-R00D0-STB3578.DAT" device:cradle log:true noui:true
+
+
+rem PER OTTENERE SERIAL E PART NUMBER
+WMIScannerManager.exe info: log:true
