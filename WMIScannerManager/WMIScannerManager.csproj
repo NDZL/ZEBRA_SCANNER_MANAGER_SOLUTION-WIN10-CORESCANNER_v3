@@ -63,6 +63,7 @@
     <Compile Include="WMIScanManager.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="123scanConfig\leggimi-NDZL.txt" />
     <Content Include="configSamples\command line argument.txt" />
     <Content Include="configSamples\config.xml" />
     <Content Include="configSamples\Copy of config.xml" />
@@ -95,6 +96,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="123scanConfig\Nicola_Poste_DS9208.scncfg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,12 @@
+15:23 23/09/2019
+
+DAL FILE SCNCFG (OTTENUTO DA 123SCAN)
+TENERE UNICAMENTE IL NODO <attrib_list>   ...   </attrib_list>
+
+OGNI ALTRO NODO PRESENTE FA FALLIRE L'APPLICAZIONE DEL PROFILO.
+
+ESEMPIO
+
+C:\VM\shared\win10-MotorolaScannerManager+WMI+MSM\WMIScannerManager\bin\Release>WMIScannerManager.exe type:configuration path:"C:\VM\shared\win10-MotorolaScannerManager+WMI+MSM\WMIScannerManager\123scanConfig\Nicola_Poste_DS9208.scncfg" device:scanner log:true noui:false
+
+
