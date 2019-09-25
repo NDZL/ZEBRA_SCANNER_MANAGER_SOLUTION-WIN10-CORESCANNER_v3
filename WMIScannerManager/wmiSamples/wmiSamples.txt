@@ -1,0 +1,109 @@
+10:27 25/09/2019
+
+
+................................................................
+
+usecase "getInfo"
+
+commandline:
+
+WMIScannerManager.exe info:true log:true
+
+output:
+scrive su log file (non a video) alcune info del device
+25/09/2019 10:31:10	-	SetTargetDevice: found two devices
+25/09/2019 10:31:10	-	SetTargetDevice: setting scanner mode
+25/09/2019 10:31:10	-	PartNumber: DS9208-SR00004NNWW
+25/09/2019 10:31:10	-	SerialNumber: 13111000502574
+25/09/2019 10:31:10	-	DateOfManufacture: 23APR13
+25/09/2019 10:31:10	-	FirmwareVersion: PAAASS00-007-R02
+
+
+
+
+................................................................
+
+
+usecase "upload scanner settings"
+
+commandline:
+
+WMIScannerManager.exe type:configuration path:"C:\VM\shared\win10-MotorolaScannerManager+WMI+MSM\WMIScannerManager\123scanConfig\Nicola_Poste_DS9208.scncfg" device:scanner log:true noui:false
+
+output:
+
+scrive su logfile alcune righe di trace + tutta la configurazione inviata
+e si deve concludere con "pushConfiguration: Return Value: Succeeded" oppure Failed
+
+25/09/2019 10:35:10	-	SetTargetDevice: found two devices
+25/09/2019 10:35:10	-	SetTargetDevice: setting scanner mode
+25/09/2019 10:35:10	-	PushConfigurationFromFile: configuration from c:\vm\shared\win10-motorolascannermanager+wmi+msm\wmiscannermanager\123scanconfig\nicola_poste_ds9208.scncfg
+25/09/2019 10:35:10	-	PushConfigurationFromFile: configuration is:
+  <attrib_list>
+    <attribute>
+      <id>392</id>
+      <datatype>A</datatype>
+      <value>0x01 0x0E 0x11 0xF0 0x47 0x0D 0xA0 0x3A 0x03</value>
+    </attribute>
+    <attribute>
+      <id>135</id>
+      <datatype>A</datatype>
+      <value>0x01 0x00 0x58 0x55 0x41 0x00 0x13 0x01 0x00 0x00 0x00 0x00 0x00 0x03 0x80 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00</value>
+    </attribute>
+
+
+.....[righe eliminate per brevità]
+
+
+    <attribute>
+      <id>616</id>
+      <datatype>S</datatype>
+      <value>Untitled2       </value>
+    </attribute>
+  </attrib_list>
+25/09/2019 10:35:10	-	PartNumber: DS9208-SR00004NNWW
+25/09/2019 10:35:10	-	SerialNumber: 13111000502574
+25/09/2019 10:35:10	-	DateOfManufacture: 23APR13
+25/09/2019 10:35:10	-	FirmwareVersion: PAAASS00-007-R02
+25/09/2019 10:35:10	-	pushConfiguration: Start Cloning: 13111000502574
+25/09/2019 10:35:11	-	pushConfiguration: Cloning Done: 13111000502574
+25/09/2019 10:35:11	-	pushConfiguration: Return Value: Succeeded
+
+................................................................
+
+
+usecase "update firmware"
+
+commandline:
+
+C:\VM\shared\win10-MotorolaScannerManager+WMI+MSM\WMIScannerManager\bin\Release>WMIScannerManager.exe type:configuration path:"C:\VM\shared\win10-MotorolaScannerManager+WMI+MSM\WMIScannerManager\wmiSamples\customFW\PAAASC10-001-N01D0.DAT" device:firmware log:true noui:false
+
+output su log:
+
+FAILED:  25/09/2019 10:44:45	-	SetTargetDevice: found two devices
+25/09/2019 10:44:45	-	SetTargetDevice: setting scanner mode
+25/09/2019 10:44:45	-	PushFirmwareFromFile: firmware from c:\vm\shared\win10-motorolascannermanager+wmi+msm\wmiscannermanager\customfw\paaasc10-001-n01d0.dat
+25/09/2019 10:44:45	-	injectNewFirmware: Start Injecting: 
+25/09/2019 10:44:45	-	injectNewFirmware: Error: Invalid object path 
+Check if the Scanner is still connected.
+
+SUCCESS:
+25/09/2019 11:55:58	-	SetTargetDevice: found two devices
+25/09/2019 11:55:58	-	SetTargetDevice: setting scanner mode
+25/09/2019 11:55:58	-	PushFirmwareFromFile: firmware from c:\vm\shared\win10-motorolascannermanager+wmi+msm\wmiscannermanager\customfw\paaasc10-001-n01d0.dat
+25/09/2019 11:55:58	-	injectNewFirmware: Start Injecting: 13111000502574
+25/09/2019 11:55:58	-	injectNewFirmware: Injecting Done: 13111000502574
+25/09/2019 11:55:58	-	injectNewFirmware: Return Value: Completed
+25/09/2019 11:55:58	-	FirmwareUpdateStatus: Session Started
+25/09/2019 11:55:58	-	FirmwareUpdateStatus: Download Started
+25/09/2019 11:55:58	-	FirmwareUpdateStatus: Progress - Block:1
+25/09/2019 11:55:58	-	FirmwareUpdateStatus: Progress - Block:6
+25/09/2019 11:55:58	-	FirmwareUpdateStatus: Progress - Block:6940
+25/09/2019 11:55:58	-	FirmwareUpdateStatus: Download Ended
+25/09/2019 11:55:58	-	FirmwareUpdateStatus: Session Ended
+25/09/2019 11:55:59	-	startNewFirmware: Starting: 13111000502574
+25/09/2019 11:55:59	-	startNewFirmware: Start Done: 13111000502574
+25/09/2019 11:55:59	-	startNewFirmware: Return Value: Completed
+
+
+................................................................
