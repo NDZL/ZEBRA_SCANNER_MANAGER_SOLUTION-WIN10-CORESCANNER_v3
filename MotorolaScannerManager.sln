@@ -69,7 +69,7 @@ Global
 		{7F5688FB-3670-4A28-9756-E53E771254A6}.Debug|Win32.ActiveCfg = Debug|Win32
 		{7F5688FB-3670-4A28-9756-E53E771254A6}.Debug|Win32.Build.0 = Debug|Win32
 		{7F5688FB-3670-4A28-9756-E53E771254A6}.Debug|x64.ActiveCfg = Debug|Win32
-		{7F5688FB-3670-4A28-9756-E53E771254A6}.Release|Any CPU.ActiveCfg = Release|Win32
+		{7F5688FB-3670-4A28-9756-E53E771254A6}.Release|Any CPU.ActiveCfg = Release|x64
 		{7F5688FB-3670-4A28-9756-E53E771254A6}.Release|Mixed Platforms.ActiveCfg = Release|Win32
 		{7F5688FB-3670-4A28-9756-E53E771254A6}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{7F5688FB-3670-4A28-9756-E53E771254A6}.Release|Win32.ActiveCfg = Release|Win32
