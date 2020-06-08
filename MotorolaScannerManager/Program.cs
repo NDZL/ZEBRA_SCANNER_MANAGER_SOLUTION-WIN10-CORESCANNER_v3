@@ -12,20 +12,20 @@ namespace MotorolaScannerManager
         /// </summary>
         static void Main()
         {
-//#if (!DEBUG)
+#if (!DEBUG)
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[] 
 			{ 
 				new ScannerManagerService() 
 			};
             ServiceBase.Run(ServicesToRun);
-//#else
-//            string[] szArg = { "" };
-            
-//            ScannerManagerService service = new ScannerManagerService();
-//            service.OnStart(szArg);
-//            System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
-//#endif
+#else
+            string[] szArg = { "" };
+
+            ScannerManagerService service = new ScannerManagerService();
+            //service.OnStart(szArg);
+            System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
+#endif
         }
 
 

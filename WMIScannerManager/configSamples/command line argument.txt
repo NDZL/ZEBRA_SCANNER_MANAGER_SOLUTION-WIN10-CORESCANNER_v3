@@ -6,4 +6,4 @@ WMIScannerManager.exe type:firmware path:"D:\Profiles\bxp748\Desktop\WMIScannerM
 
 
 rem PER OTTENERE SERIAL E PART NUMBER
-WMIScannerManager.exe info: log:true
+WMIScannerManager.exe info:true log:true

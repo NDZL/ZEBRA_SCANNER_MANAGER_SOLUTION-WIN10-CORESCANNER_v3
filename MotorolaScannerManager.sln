@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorolaScannerManager", "MotorolaScannerManager\MotorolaScannerManager.csproj", "{F24CF053-7D8F-4B79-8DA1-C44738718D4F}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MotorolaServiceSetup", "MotorolaServiceSetup\MotorolaServiceSetup.vdproj", "{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMIScannerManager", "WMIScannerManager\WMIScannerManager.csproj", "{67DED9FA-9F16-4EA1-8D50-AC322469AA43}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MotScanManager", "MotScanManager\MotScanManager.vcxproj", "{7F5688FB-3670-4A28-9756-E53E771254A6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ZebraMSM_w10_x64_Installer", "ZebraMSM_w10_x64_Installer\ZebraMSM_w10_x64_Installer.vdproj", "{F9B33185-5E7C-4426-BE6F-D5DED08C4762}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,18 +37,6 @@ Global
 		{F24CF053-7D8F-4B79-8DA1-C44738718D4F}.Release|Win32.ActiveCfg = Release|Any CPU
 		{F24CF053-7D8F-4B79-8DA1-C44738718D4F}.Release|x64.ActiveCfg = Release|Any CPU
 		{F24CF053-7D8F-4B79-8DA1-C44738718D4F}.Release|x64.Build.0 = Release|Any CPU
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Debug|Any CPU.ActiveCfg = Debug
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Debug|Mixed Platforms.ActiveCfg = Debug
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Debug|Mixed Platforms.Build.0 = Debug
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Debug|Win32.ActiveCfg = Debug
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Debug|Win32.Build.0 = Debug
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Debug|x64.ActiveCfg = Debug
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Release|Any CPU.ActiveCfg = Release
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Release|Mixed Platforms.ActiveCfg = Release
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Release|Mixed Platforms.Build.0 = Release
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Release|Win32.ActiveCfg = Release
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Release|Win32.Build.0 = Release
-		{A6B6E5C6-9C11-4A6E-B439-F3E27A41BEAE}.Release|x64.ActiveCfg = Release
 		{67DED9FA-9F16-4EA1-8D50-AC322469AA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67DED9FA-9F16-4EA1-8D50-AC322469AA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67DED9FA-9F16-4EA1-8D50-AC322469AA43}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -75,6 +63,14 @@ Global
 		{7F5688FB-3670-4A28-9756-E53E771254A6}.Release|Win32.ActiveCfg = Release|Win32
 		{7F5688FB-3670-4A28-9756-E53E771254A6}.Release|Win32.Build.0 = Release|Win32
 		{7F5688FB-3670-4A28-9756-E53E771254A6}.Release|x64.ActiveCfg = Release|Win32
+		{F9B33185-5E7C-4426-BE6F-D5DED08C4762}.Debug|Any CPU.ActiveCfg = Debug
+		{F9B33185-5E7C-4426-BE6F-D5DED08C4762}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{F9B33185-5E7C-4426-BE6F-D5DED08C4762}.Debug|Win32.ActiveCfg = Debug
+		{F9B33185-5E7C-4426-BE6F-D5DED08C4762}.Debug|x64.ActiveCfg = Debug
+		{F9B33185-5E7C-4426-BE6F-D5DED08C4762}.Release|Any CPU.ActiveCfg = Release
+		{F9B33185-5E7C-4426-BE6F-D5DED08C4762}.Release|Mixed Platforms.ActiveCfg = Release
+		{F9B33185-5E7C-4426-BE6F-D5DED08C4762}.Release|Win32.ActiveCfg = Release
+		{F9B33185-5E7C-4426-BE6F-D5DED08C4762}.Release|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

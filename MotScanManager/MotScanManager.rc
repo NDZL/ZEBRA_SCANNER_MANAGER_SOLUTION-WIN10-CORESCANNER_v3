@@ -60,13 +60,13 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "MSI"
-            VALUE "FileDescription", "w7 v7.2012.11.4"
+            VALUE "FileDescription", "w10 x64 v10.2020.1.1"
             VALUE "FileVersion", ""
             VALUE "InternalName", "MotScanManager.exe"
-            VALUE "LegalCopyright", "(C)2012 MOTOROLA SOLUTIONS.  All rights reserved."
-            VALUE "OriginalFilename", "w7_2012_11_4"
-            VALUE "ProductName", "MOT SCAN MANAGER W7"
-            VALUE "ProductVersion", "7.2012.11.4"
+            VALUE "LegalCopyright", "(C)2020 ZEBRA TECHNOLOGIES.  All rights reserved."
+            VALUE "OriginalFilename", "w10_x64_v10_2020"
+            VALUE "ProductName", "MOT SCAN MANAGER W10"
+            VALUE "ProductVersion", "10.2020.1.1"
         END
     END
     BLOCK "VarFileInfo"
