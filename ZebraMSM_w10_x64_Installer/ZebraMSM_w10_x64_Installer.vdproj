@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_57768A4B9D104ECCAA83949F8DEE64A5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_75B8050E9A984D72B2D4D4C66349302B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -45,7 +51,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_EB84B1AAB1AB4941BCDAECC4E8F437C7"
+        "MsmKey" = "8:_CF107F28CAE34B39B64217B25B289D60"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -79,6 +85,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -95,6 +109,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -188,6 +210,26 @@
             {
             "SourcePath" = "8:..\\Release\\App.config"
             "TargetName" = "8:App.config"
+            "Tag" = "8:"
+            "Folder" = "8:_8E5115983EB3485BBB6DF8BF85BC952D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_57768A4B9D104ECCAA83949F8DEE64A5"
+            {
+            "SourcePath" = "8:..\\Release\\MotorolaScannerManager.exe.config"
+            "TargetName" = "8:MotorolaScannerManager.exe.config"
             "Tag" = "8:"
             "Folder" = "8:_8E5115983EB3485BBB6DF8BF85BC952D"
             "Condition" = "8:"
@@ -306,7 +348,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EB84B1AAB1AB4941BCDAECC4E8F437C7"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CF107F28CAE34B39B64217B25B289D60"
             {
             "SourcePath" = "8:..\\Release\\MotScanManager.exe"
             "TargetName" = "8:MotScanManager.exe"

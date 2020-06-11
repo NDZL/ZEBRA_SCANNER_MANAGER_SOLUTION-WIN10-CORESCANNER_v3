@@ -92,7 +92,9 @@ HCURSOR CMotScanManagerDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
-
+// 11-june-2020: "CoCreateInstance(CLSID_SblRouter..." ONLY WORKS WITH  “OPOS_MS_1.05.10.exe”
+// JUST USING THE LATEST CORESCANNER SDK V3.0.6 THIS CLSID IS NOT REGISTERED
+// CLSID_SblRouter = {0x1E028705,0x30F3,0x4644,{0xB4,0x2D,0x69,0x99,0xBC,0xD2,0xA2,0x57}};
 void CMotScanManagerDlg::Init()
 {
 	CoInitialize(NULL);
@@ -100,7 +102,7 @@ void CMotScanManagerDlg::Init()
 	if(hr!=S_OK)
 	{
 		//creating Router instance failed. take action.
-		AfxMessageBox(_T("COM Creation failed"));
+		AfxMessageBox(_T("COM Creation failed - Zebra#1 "));
 
 		CString logFileName("C:\\\\MotScanManagerNotRecoverableErrorLog.txt");
 
