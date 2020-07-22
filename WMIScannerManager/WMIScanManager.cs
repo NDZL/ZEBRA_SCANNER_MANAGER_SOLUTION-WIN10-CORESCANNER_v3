@@ -30,6 +30,8 @@ namespace WMIScannerManager
 
         private StringCollection partCollection = new StringCollection();
         private StringCollection serialCollection = new StringCollection();
+        private StringCollection domCollection = new StringCollection();
+        private StringCollection fwvCollection = new StringCollection();
 
         private string strScanCount = "0";
         private string strPartNumber = "";
@@ -103,10 +105,21 @@ namespace WMIScannerManager
         }
 
         public void getInfo() {
-            LogMessage("PartNumber: " + strPartNumber);
-            LogMessage("SerialNumber: " + strSerialNumber);
-            LogMessage("DateOfManufacture: " + DOM);
-            LogMessage("FirmwareVersion: " + FWV);        
+            /*
+            LogMessage("getInfo-PartNumber: " + strPartNumber);
+            LogMessage("getInfo-SerialNumber: " + strSerialNumber);
+            LogMessage("getInfo-DateOfManufacture: " + DOM);
+            LogMessage("getInfo-FirmwareVersion: " + FWV);
+            */
+
+            for(int idx=0; idx<serialCollection.Count; idx++) {
+                LogMessage("PartNumber: " + partCollection[idx]);
+                LogMessage("SerialNumber: " + serialCollection[idx]);
+                LogMessage("DateOfManufacture: " + domCollection[idx]);
+                LogMessage("FirmwareVersion: " + fwvCollection[idx]);
+            }
+
+
         }
 
         public bool LogEnabled
@@ -234,6 +247,8 @@ namespace WMIScannerManager
                 // executing this function.
                 // Re-discover scanners
                 Discover();
+
+             
             }
         }
 
@@ -243,6 +258,12 @@ namespace WMIScannerManager
             {
                 try
                 {
+                    //WIN10 PORTING 2020 - CLEANING ARRAYS ON INIT
+                    partCollection.Clear();
+                    serialCollection.Clear();
+                    domCollection.Clear();
+                    fwvCollection.Clear();
+
                     objSearcher = new ManagementObjectSearcher(mgmtScope,
                         new WqlObjectQuery("SELECT * FROM Symbol_BarcodeScanner"));
 
@@ -260,6 +281,14 @@ namespace WMIScannerManager
                         partCollection.Add(mo["PartNumber"].ToString());
 
                         serialCollection.Add(mo["SerialNumber"].ToString());
+
+                        try
+                        {
+                            domCollection.Add(mo["DateOfManufacture"].ToString());
+
+                            fwvCollection.Add(mo["FirmwareVersion"].ToString());
+                        }
+                        catch { }
 
                     }
                     if (no_of_Scanners > 0)
@@ -293,9 +322,9 @@ namespace WMIScannerManager
                 strPartNumber = partCollection[0].Trim();
                 strSerialNumber = serialCollection[0].Trim();
             }
-            else
+            else if (partCollection.Count > 1) //IF 2020 NDZL
             {
-                LogMessage("SetTargetDevice: found two devices");
+                LogMessage("SetTargetDevice: found two or more devices");  //2020 NDZL
                 if (dclass == DeviceClass.Scanner)
                 {
                     LogMessage("SetTargetDevice: setting scanner mode");
@@ -315,6 +344,9 @@ namespace WMIScannerManager
                         strSerialNumber = serialCollection[i].Trim();
                     }
                 }
+            }
+            else {
+                LogMessage("SetTargetDevice: no devices found");  //2020 NDZL
             }
         }
 
